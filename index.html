@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <!-- MAIN CARD -->
+  <div class="welcome-card" id="main-card">
+    <h1>Happy One Year Anniversary</h1>
+    <div id="countdown">Loading...</div>
+    <div id="buttons" style="display:none;">
+      <button id="btn-messages">Two Cuties in One Frame</button>
+    </div>
+  </div>
+
+  <!-- MESSAGES SECTION -->
+  <div class="section" id="messages-section">
+    <button class="back-btn" onclick="showSection('main')">← Back</button>
+    <h2>Special Messages</h2>
+    <div class="messages" id="messages">Happy Anniversary Cutieeeesssss 🎉</div>
+    <button class="next-btn" id="next-msg">Next</button>
+    <div class="gallery" id="gallery">
+      <img src="img1.jpeg" alt="The Startingggg">
+      <img src="img2.jpeg" alt="😍">
+      <img src="img3.jpeg" alt="😘">
+    </div>
+    <div class="music-player">
+      <audio controls autoplay loop>
+        <source src="song1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+
+
+  <!-- MORE LOVE SECTION -->
+  <div class="section" id="More Love-section">
+    <button class="back-btn" onclick="showSection('main')">← Back</button>
+     <div class="gallery" id="gallery-more">
+      <img src="img4.jpeg" alt="😶‍🌫️">
+      <img src="img5.jpeg" alt="🥰">
+      <img src="img6.jpeg" alt="😙">
+    </div>
+    <div class="music-player">
+      <audio controls autoplay loop>
+        <source src="song.mp3" type="audio/mpeg">
+      </audio>
+  </div>
+
+</div>
+</div>
+
+<canvas class="confetti" id="confetti"></canvas>
+<script src="script.js"></script>
+</body>
+</html> 
